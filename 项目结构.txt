@@ -1,0 +1,67 @@
+本文档为前任开发者交接文档，交接人包括王昊、杜军、秦亚楠、蔡文龙、刘津。
+
+一、地图
+情报分析右侧公告 src/views/gis-map/gisMap.vue
+情报分析右侧视频 src/views/gis-map/watchVideo.vue
+情报查看详情 src/views/gis-map/eventDetail.vue
+地图右侧图层控制 src/views/gis-map/layerCheck.vue
+地图下方模块切换按钮 src/views/gis-map/gisMap.vue
+OD观测 src/views/gis-map/gisMap.vue
+OD规律 src/views/gis-map/gisMap.vue
+潮汐流观测 src/views/gis-map/gisMap.vue
+潮汐流规律 src/views/gis-map/gisMap.vue
+营运车辆观测 src/views/gis-map/gisMap.vue
+营运车辆规律 src/views/gis-map/gisMap.vue
+营运车辆规律右侧统计图 src/views/gis-map/operatingSide.vue
+交通状态观测右侧弹窗 src/views/gis-map/trafficFlowLow.vue
+拥堵规律分析 src/views/gis-map/trafficLow.vue
+路口交通观测右侧弹窗 src/views/gis-map/trafficCom.vue
+
+
+二、系统管理
+单位管理 src/views/system-management/unit-management
+    弹窗 src/views/system-management/unit-management/unit-editDialog.vue
+    树形表格组件 src/views/system-management/unit-management/unit-tree-table
+协同单位管理 src/views/system-management/collaborative-unit-management
+    弹窗 src/views/system-management/collaborative-unit-management/collaborativeunit-editDialog.vue
+    树形表格组件 src/views/system-management/collaborative-unit-management/collaborativeunit-tree-table
+参数管理 
+    偏离/限行参数 src/views/system-management/system-settings/Traffic-flow-control-parameters/deviation-line-limit.vue
+组件库 src/views/system-management/asset-management
+字典管理 src/views/system-management/dictionary-Management/dictionary-Management/dictionary-Management.vue
+系统帮助 src/views/system-management/systermHelp/systermHelp.vue
+
+三、视频集控
+云台 src/views/Video-gathering-control/Cloud-platform
+    实时模式 src/views/Video-gathering-control/Cloud-platform/realtimeVideo.vue
+    轮巡模式 src/views/Video-gathering-control/Cloud-platform/trainingVideo.vue
+轮巡计划 src/views/Video-gathering-control/Training-program
+    多组弹窗 src/views/Video-gathering-control/Training-program/multiDialog.vue
+    单组弹窗 src/views/Video-gathering-control/Training-program/singleDialog.vue
+
+四、情指勤督
+预案管理 src/views/To-be-diligent-governor/program-management/program-management.vue
+    * @antv/g6 version 1.2.8 应保持1.x可使用当前封装
+    目前g6发布了version 3.0.0 Beta版本，可以考虑重写
+情报档案 src/views/To-be-diligent-governor/Intelligence-customization
+
+五、研判分析
+数据检索 src/views/Analysis-and-analysis/data-retrieval/dataRetrieval.vue
+
+六、AI配置
+AI配置 src/views/AI-device-management
+    Wire-frame-configuration1.vue是视频，后期可能需要进行修改
+    shuttle.vue是点击AI配置的弹窗
+    AI-device-management.vue是页面表格及搜索框
+
+七、公共组件
+全局基础数据&权限前台配置数据 src/public/baseData.js
+权限处理 src/views/Home.vue 
+    在getMenuList()方法中对后台返回权限的处理，处理的权限存在Vuex中的状态authData中
+树形表格组件样式 src/public/publicTreeTable.less
+搜索组件 src/components/common-search
+地图中所有模块的搜索框 src/views/gis-map/leftTop.vue
+地图相关公共方法 src/public/GisClassMethod.js
+表格组件 src/components/common/tableCommom.vue
+        src/components/common/tableCommomPut.vue
+按钮组件 src/components/common/button.vue0.

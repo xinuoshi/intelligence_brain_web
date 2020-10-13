@@ -1,0 +1,14 @@
+1、问题现象
+前端在播放后端推送的HLS实时视频流的时候，会报跨域的错。
+
+2、解决方法
+需要后端nginx配合，为实时视频的请求地址/hls统一配置允许跨域
+
+在nginx.conf的server下添加：
+location /hls/ {
+    add_header Access-Control-Allow-Methods *;
+    add_header Access-Control-Max-Age 3600;
+    add_header Access-Control-Allow-Credentials true;
+    add_header Access-Control-Allow-Origin $http_origin;
+    add_header Access-Control-Allow-Headers $http_access_control_request_headers;
+}

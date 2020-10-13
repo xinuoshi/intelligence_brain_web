@@ -1,0 +1,114 @@
+{
+    "name": "intelligence_brain_web",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "dev": "vue-cli-service serve"
+    },
+    "dependencies": {
+        "@antv/g6": "^1.2.8",
+        "coordtransform": "^2.1.2",
+        "dom-to-image": "^2.6.0",
+        "easy-player": "^2.2.7",
+        "echarts": "^4.2.0-rc.2",
+        "element-ui": "^2.4.5",
+        "file-saver": "^1.3.8",
+        "html2canvas": "^1.0.0-rc.3",
+        "jspdf": "^1.4.1",
+        "moment": "^2.24.0",
+        "ol": "^5.1.3",
+        "openlayers": "^4.6.5",
+        "qs": "^6.7.0",
+        "save-as": "^0.1.8",
+        "video.js": "^7.2.3",
+        "videojs-flash": "^2.1.2",
+        "vue": "^2.5.17",
+        "vue-router": "3.0.1",
+        "vuex": "^3.0.1",
+        "vuex-persistedstate": "^2.5.4"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.8.0",
+        "@vue/cli-plugin-eslint": "^3.8.0",
+        "@vue/cli-service": "^3.8.0",
+        "@vue/eslint-config-standard": "^3.0.1",
+        "axios": "^0.19.0",
+        "less": "^3.8.1",
+        "less-loader": "^4.1.0",
+        "vue-cli-plugin-axios": "0.0.4",
+        "vue-cli-plugin-element": "^1.0.0",
+        "vue-template-compiler": "^2.5.17"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "@vue/standard"
+        ],
+        "globals": {
+            "axios": true,
+            "$axios": true
+        },
+        "rules": {
+            "no-tabs": "off",
+            "arrow-parens": 0,
+            "generator-star-spacing": 0,
+            "semi": [
+                "error",
+                "always"
+            ],
+            "quotes": [
+                "error",
+                "double"
+            ],
+            "space-before-function-paren": [
+                "error",
+                {
+                    "anonymous": "never",
+                    "named": "never",
+                    "asyncArrow": "never"
+                }
+            ],
+            "indent": [
+                "error",
+                4,
+                {
+                    "SwitchCase": 1
+                }
+            ],
+            "no-var": 2,
+            "block-scoped-var": 0,
+            "array-bracket-spacing": [
+                2,
+                "never"
+            ],
+            "no-console": 2,
+            "no-irregular-whitespace": 2,
+            "padded-blocks": [
+                2,
+                "never"
+            ],
+            "no-unreachable": 2,
+            "no-alert": 2,
+            "brace-style": 2
+        },
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}
