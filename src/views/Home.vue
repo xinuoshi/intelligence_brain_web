@@ -1,4 +1,4 @@
-<template>
+                <template>
   <div class="home">
     <!-- 主体 -->
     <div class="contentBox flexColumn">
