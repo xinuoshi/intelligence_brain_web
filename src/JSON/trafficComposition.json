@@ -1,0 +1,113 @@
+{
+    "//":"交通构成观测",
+    "trafficComposition":{
+        "data": [{
+            "areaId": "120112107",
+            "arriveTrafficProp": 0.2,
+            "leaveTrafficProp": 0.1,
+            "interTrafficProp": 0.45,
+            "transitTrafficProp": 0.25
+           }, {
+            "areaId": "120112108",
+            "arriveTrafficProp": 0.21,
+            "leaveTrafficProp": 0.34,
+            "interTrafficProp": 0.16,
+            "transitTrafficProp": 0.29
+           }, {
+            "areaId": "120112101",
+            "arriveTrafficProp": 0.16,
+            "leaveTrafficProp": 0.1,
+            "interTrafficProp": 0.44,
+            "transitTrafficProp": 0.3
+           }, {
+            "areaId": "120112103",
+            "arriveTrafficProp": 0.25,
+            "leaveTrafficProp": 0.3,
+            "interTrafficProp": 0.15,
+            "transitTrafficProp": 0.3
+           }, {
+            "areaId": "120112106",
+            "arriveTrafficProp": 0.35,
+            "leaveTrafficProp": 0.2,
+            "interTrafficProp": 0.3,
+            "transitTrafficProp": 0.15
+           }, {
+            "areaId": "120112100",
+            "arriveTrafficProp": 0.25,
+            "leaveTrafficProp": 0.35,
+            "interTrafficProp": 0.25,
+            "transitTrafficProp": 0.15
+           }, {
+            "areaId": "120112102",
+            "arriveTrafficProp": 0.5,
+            "leaveTrafficProp": 0.1,
+            "interTrafficProp": 0.25,
+            "transitTrafficProp": 0.25
+           }, {
+            "areaId": "120112104",
+            "arriveTrafficProp": 0.4,
+            "leaveTrafficProp": 0.05,
+            "interTrafficProp": 0.45,
+            "transitTrafficProp": 0.1
+           }]
+    },
+    "//":"综合分析-->各区交通管理综合指数按条件查询",
+    "area":{
+        "data":[{
+            "tcmi": 2.9,
+            "tcmiqoq": 2.2,
+            "rankqoq": 4,
+            "rank": 1,
+            "area": "梁徐街道"
+        },
+        {
+            "tcmi": 2.1,
+            "tcmiqoq": 1.2,
+            "rankqoq": 3.6,
+            "rank": 2,
+            "area": "罗塘街道"
+        },
+        {
+            "tcmi": 2.2,
+            "tcmiqoq": 2.5,
+            "rankqoq": 1.8,
+            "rank": 3,
+            "area": "三水街道"
+        },
+        {
+            "tcmi": 2.1,
+            "tcmiqoq": 3.5,
+            "rankqoq": 1.2,
+            "rank": 4,
+            "area": "天目山街道"
+        },
+        {
+            "tcmi": 1.1,
+            "tcmiqoq": 2.3,
+            "rankqoq": 1.2,
+            "rank": 5,
+            "area": "蒋垛镇"
+        },
+        {
+            "tcmi": 2.1,
+            "tcmiqoq": 1.6,
+            "rankqoq": 2.2,
+            "rank": 6,
+            "area": "娄庄镇"
+        },
+        {
+            "tcmi": 2.3,
+            "tcmiqoq": 2.5,
+            "rankqoq": 1.5,
+            "rank": 7,
+            "area": "白米镇"
+        },
+        {
+            "tcmi": 3.7,
+            "tcmiqoq": 1.5,
+            "rankqoq": 4.6,
+            "rank": 8,
+            "area": "俞垛镇"
+        }]
+    }
+}

@@ -1,0 +1,360 @@
+{
+    "//":"交通违法数量统计",
+        "illRegionRank":{
+            "data":[{
+                "count": 8,
+                "qoq": 6.5,
+                "rank": 1,
+                "area": "咸水沽镇",
+                "yoy": 8
+            },{
+                "count": 5,
+                "qoq": 4.5,
+                "rank": 2,
+                "area": "小站镇",
+                "yoy": 5
+            },{
+                "count": 11,
+                "qoq": 3.1,
+                "rank": 3,
+                "area": "咸水沽镇",
+                "yoy": 11
+            },{
+                "count": 18,
+                "qoq": 1.8,
+                "rank": 4,
+                "area": "八里台镇",
+                "yoy": 18
+            },{
+                "count": 5,
+                "qoq": 1.5,
+                "rank": 5,
+                "area": "辛庄镇",
+                "yoy": 5
+            },{
+                "count": 9,
+                "qoq": 1.9,
+                "rank": 6,
+                "area": "葛沽镇",
+                "yoy": 9
+            },{
+                "count": 15,
+                "qoq": 7.5,
+                "rank": 7,
+                "area": "双港镇",
+                "yoy": 15
+            },{
+                "count": 9,
+                "qoq": 6,
+                "rank": 8,
+                "area": "双桥河镇",
+                "yoy": 9
+            },{
+                "count": 14,
+                "qoq": 8.5,
+                "rank": 9,
+                "area": "北闸口镇",
+                "yoy": 14
+            }]
+    },
+    "//":"违法事件数量24小时时段分布统计",
+    "duration":{
+        "data": [{
+            "count": 1,
+            "area": "xxxxxx",
+            "duration": "01"
+           },  {
+            "count": 1,
+            "area": "xxxxxx",
+            "duration": "21"
+           }, {
+            "count": 1,
+            "area": "xxxxxx",
+            "duration": "02"
+           }, {
+            "count": 1,
+            "area": "xxxxxx",
+            "duration": "01"
+           }, {
+            "count": 1,
+            "area": "xxxxxx",
+            "duration": "02"
+           }, {
+            "count": 1,
+            "area": "xxxxxx",
+            "duration": "21"
+           }]
+    },
+    "//":"违法类型分布统计",
+    "illType":{
+        "data": [{
+            "illegalType": "3",
+            "count": 1,
+            "area": "120110"
+           }, {
+            "illegalType": "2",
+            "count": 2,
+            "area": "120108"
+           }, {
+            "illegalType": "3",
+            "count": 3,
+            "area": "120108"
+           }, {
+            "illegalType": "2",
+            "count": 2,
+            "area": "120000"
+           }, {
+            "illegalType": "3",
+            "count": 4,
+            "area": "120000"
+           }]
+    },
+    "//":"违法车辆号牌属地统计",
+    "vehicleLocation":{
+        "data": [{
+            "count": 150,
+            "area": "苏A"
+           },{
+            "count": 90,
+            "area": "苏B"
+           },{
+            "count": 215,
+            "area": "苏M"
+           },{
+            "count": 160,
+            "area": "苏D"
+           }]
+    },
+    "//":"违法人员户口属地统计",
+    "driverLocation":{
+        "data": [{
+            "area": "外地",
+            "count":10
+              }, 
+             {
+            "area": "本地",
+            "count":40
+             }]
+    },
+    "//":"违法驾驶员性别",
+    "sex":{
+        "data": [{
+            "count": 1,
+            "sex": "1"
+           }, {
+            "count": 3,
+            "sex": "2"
+           }]
+    },
+    "//":"违法驾驶员年龄统计",
+    "age":{
+        "data": [
+            {
+            "count": 3,
+            "ageGroup": "60岁以上"
+            },{
+            "count": 5,
+            "ageGroup": "51岁-60岁"
+             },
+            {
+            "count": 9,
+            "ageGroup": "41岁-50岁"
+             },
+            {
+            "count": 10,
+            "ageGroup": "31岁-40岁"
+            },
+            {
+            "count": 28,
+            "ageGroup": "21岁-30岁"
+             },
+             {
+             "count": 6,
+             "ageGroup": "16岁-20岁"
+             }]
+    },
+    "//":"违法驾驶员违章次数统计",
+    "driverVioNum":{
+        "data": [{
+            "count": 4,
+            "violation": "3"
+            },{
+                "count": 3,
+                "violation": "2"
+                }]
+    },
+    "//":"违法驾驶员驾龄统计",
+    "driveage":{
+        "data": [{
+            "count": 3,
+            "driveAgeGroup": "1年以下"
+             },
+           {
+            "count": 1,
+            "driveAgeGroup": "2年"
+           },
+           {
+            "count": 1,
+            "driveAgeGroup": "3年"
+           },
+           {
+            "count": 1,
+            "driveAgeGroup": "4年"
+           },
+           {
+            "count": 1,
+            "driveAgeGroup":"5年"
+           },
+           {
+            "count": 1,
+            "driveAgeGroup": "6-10年"
+           },
+           {
+            "count": 1,
+            "driveAgeGroup": "11-15年"
+           },
+           {
+            "count": 1,
+            "driveAgeGroup":"16-20年"
+           },
+           {
+            "count": 1,
+            "driveAgeGroup": "20年以上"
+           }]
+    },
+    "//":"事故驾驶人驾驶证累计计分统计",
+    "score":{
+        "data": [{
+            "scoreNum":"1-3分",
+            "count": 4,
+            "scoreGroup": 1
+           },{
+            "scoreNum":"4-6分",
+            "count": 7,
+            "scoreGroup": 2
+           },{
+            "scoreNum":"0分",
+            "count": 5,
+            "scoreGroup": 3
+           },{
+            "scoreNum":"7-11分",
+            "count": 2,
+            "scoreGroup": 4
+           },{
+            "scoreNum":"12分及以上",
+            "count": 2,
+            "scoreGroup": 5
+           }
+         ]
+    },
+    "//":"违法驾驶员历史违法统计",
+    "driverAcdNum":{
+        "data": [{
+            "accident":"16岁-20岁",
+            "count": 1,
+            "accidentNum": 1
+           },{
+            "accident":"21岁-30岁",
+            "count": 2,
+            "accidentNum": 5
+           },{
+            "accident":"31岁-40岁",
+            "count": 3,
+            "accidentNum": 4
+           },{
+            "accident":"41岁-50岁",
+            "count": 4,
+            "accidentNum": 3
+           },{
+            "accident":"51岁-60岁",
+            "count": 5,
+            "accidentNum": 7
+           }]
+    },
+    "//":"违法机动车类型统计",
+    "carType":{
+        "data": [{
+        "vehicleType": "B12",
+        "count": 2
+       }, {
+        "vehicleType": "B15",
+        "count": 4
+       }, {
+        "vehicleType": "B16",
+        "count": 6
+       }, {
+        "vehicleType": "B13",
+        "count": 9
+       }]},
+       "//":"涉事机动车所有权统计结果",
+       "ownership":{
+           "data": [{
+               "count": 1,
+               "ownership": "1"
+              }, {
+               "count": 3,
+               "ownership": "2"
+              }]
+       },
+       "//":"驾驶机动车颜色统计",
+       "vehicleColour":{
+           "data": [{
+               "count": 10,
+               "vehicleColour": "A"
+              }, {
+               "count": 2,
+               "vehicleColour": "C"
+              }, {
+               "count": 3,
+               "vehicleColour": "B"
+              }, {
+               "count": 2,
+               "vehicleColour": "D"
+              }]
+       },
+       "//":"违法机动车使用性质统计",
+       "useNature":{
+           "data": [{
+               "useNature": "A",
+               "count": 2
+              }, {
+               "useNature": "C",
+               "count": 4
+              }]
+       },
+       "//":"违法机动车用途性质统计",
+       "vehicleUse":{
+           "data": [{
+               "vehicleUse": "W2",
+               "count": 2
+              }, {
+               "vehicleUse": "P1",
+               "count": 4
+              }]
+       },
+       "//":"违法机动车违法次数统计",
+       "carVioNum":{
+           "data": [{
+               "count": 4,
+               "violation": "3"
+               },{
+                   "count": 3,
+                   "violation": "1"
+                   }
+             ]
+       },
+       "//":"违法机动车事故次数统计",
+       "carAcdNum":{
+           "data": [{
+               "accident":"3",
+               "count": 4,
+               "accidentNum": "3"
+               },{
+               "accident":"5",
+               "count": 3,
+               "accidentNum": "2"
+               }
+             ]
+       }
+}
+

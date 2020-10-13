@@ -1,0 +1,217 @@
+{
+    "//": "edited by brandy",
+    "//":"交通安全评价",
+    "evaluations":{
+        "data": [
+           {
+            "tsmi": 2.2,
+            "tsmiqoq": 2.1,
+            "rank": 2,
+            "area": "梁徐街道",
+            "rankqoq": 3.2
+           },
+           {
+            "tsmi": 1.5,
+            "tsmiqoq": 1.8,
+            "rank": 2,
+            "area": "罗塘街道",
+            "rankqoq": 3.2
+           },
+           {
+            "tsmi": 2.0,
+            "tsmiqoq": 2.5,
+            "rank": 2,
+            "area": "三水街道",
+            "rankqoq": 3.2
+           },
+           {
+            "tsmi": 1.6,
+            "tsmiqoq": 1.9,
+            "rank": 2,
+            "area": "天目山街道",
+            "rankqoq": 3.2
+           },
+           {
+            "tsmi": 2.3,
+            "tsmiqoq": 0.9,
+            "rank": 2,
+            "area": "蒋垛镇",
+            "rankqoq": 3.2
+           },
+           {
+            "tsmi": 2.2,
+            "tsmiqoq": 1.8,
+            "rank": 2,
+            "area": "娄庄镇",
+            "rankqoq": 3.2
+           },
+           {
+            "tsmi": 2.6,
+            "tsmiqoq": 1.7,
+            "rank": 2,
+            "area": "白米镇",
+            "rankqoq": 3.2
+           },
+           {
+            "tsmi": 2.1,
+            "tsmiqoq": 1.2,
+            "rank": 2,
+            "area": "俞垛镇",
+            "rankqoq": 3.2
+           },
+		   
+		   {
+		    "tsmi": 2.6,
+		    "tsmiqoq": 1.7,
+		    "rank": 2,
+		    "area": "大土仑镇",
+		    "rankqoq": 3.2
+		   },
+		   {
+		    "tsmi": 2.4,
+		    "tsmiqoq": 1.7,
+		    "rank": 2,
+		    "area": "顾高镇",
+		    "rankqoq": 3.2
+		   },
+		   {
+		    "tsmi": 2.3,
+		    "tsmiqoq": 1.7,
+		    "rank": 2,
+		    "area": "张甸镇",
+		    "rankqoq": 3.2
+		   },
+		   {
+		    "tsmi": 2.6,
+		    "tsmiqoq": 1.7,
+		    "rank": 2,
+		    "area": "沈高镇",
+		    "rankqoq": 3.2
+		   },
+		   {
+		    "tsmi": 2.2,
+		    "tsmiqoq": 1.7,
+		    "rank": 2,
+		    "area": "溱潼镇",
+		    "rankqoq": 3.2
+		   },
+		   {
+		    "tsmi": 2.1,
+		    "tsmiqoq": 1.7,
+		    "rank": 2,
+		    "area": "淤溪镇",
+		    "rankqoq": 3.2
+		   }
+          ]
+    },
+    "//": "交通流分析",
+    "areaIndex":{
+        "data": [{
+            "tfmi": 1.7,
+            "tfmiqoq": 1.5,
+            "rank": 1,
+            "area": "梁徐街道",
+            "rankqoq": 4
+           },
+           {
+            "tfmi": 1.4,
+            "tfmiqoq": 2.1,
+            "rank": 2,
+            "area": "罗塘街道",
+            "rankqoq": 3.2
+           },
+           {
+            "tfmi": 1.6,
+            "tfmiqoq": 3.2,
+            "rank": 3,
+            "area": "三水街道",
+            "rankqoq": 3.2
+           },
+           {
+            "tfmi": 1.3,
+            "tfmiqoq": 2.3,
+            "rank": 4,
+            "area": "天目山街道",
+            "rankqoq": 3.2
+           },
+           {
+            "tfmi": 1.2,
+            "tfmiqoq": 2.5,
+            "rank": 5,
+            "area": "蒋垛镇",
+            "rankqoq": 3.2
+           },
+           {
+            "tfmi": 2.5,
+            "tfmiqoq": 2.3,
+            "rank": 6,
+            "area": "娄庄镇",
+            "rankqoq": 3.2
+           },
+           {
+            "tfmi": 3.1,
+            "tfmiqoq": 2.7,
+            "rank": 7,
+            "area": "白米镇",
+            "rankqoq": 3.2
+           },
+           {
+            "tfmi": 2.1,
+            "tfmiqoq": 1.5,
+            "rank": 8,
+            "area": "俞垛镇",
+            "rankqoq": 3.2
+           },
+		   
+		   {
+		    "tfmi": 2.7,
+		    "tfmiqoq": 1.5,
+		    "rank": 9,
+		    "area": "大土仑镇",
+		    "rankqoq": 3.2
+		   },
+		   {
+		    "tfmi": 2.1,
+		    "tfmiqoq": 1.5,
+		    "rank": 10,
+		    "area": "顾高镇",
+		    "rankqoq": 3.2
+		   },
+		   {
+		    "tfmi": 2.5,
+		    "tfmiqoq": 1.5,
+		    "rank": 11,
+		    "area": "张甸镇",
+		    "rankqoq": 3.2
+		   },
+		   {
+		    "tfmi": 3,
+		    "tfmiqoq": 1.5,
+		    "rank":12,
+		    "area": "沈高镇",
+		    "rankqoq": 3.2
+		   },
+		   {
+		    "tfmi": 2.1,
+		    "tfmiqoq": 1.5,
+		    "rank": 13,
+		    "area": "溱潼镇",
+		    "rankqoq": 3.2
+		   },
+		   {
+		    "tfmi": 2.9,
+		    "tfmiqoq": 1.5,
+		    "rank": 14,
+		    "area": "淤溪镇",
+		    "rankqoq": 4.3
+		   }
+          ]
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+{
+    "//":"各种类型负秩序事件数量统计环比/排名环比变化",
+    "orderRegionRank":{
+        "data": [{
+            "count": 5,
+            "qoq": 1.5,
+            "rank": 1,
+            "area": "梁徐街道",
+            "yoy": 4
+           }, {
+            "count": 4,
+            "qoq": 2.1,
+            "rank": 2,
+            "area": "罗塘街道",
+            "yoy": 1
+           }, {
+            "count": 9,
+            "qoq": 2.5,
+            "rank": 2,
+            "area": "梁徐街道",
+            "yoy": 1
+           }, {
+            "count": 10,
+            "qoq": 3.1,
+            "rank": 2,
+            "area": "三水街道",
+            "yoy": 1
+           }, {
+            "count": 7,
+            "qoq": 1.6,
+            "rank": 2,
+            "area": "天目山街道",
+            "yoy": 1
+           }, {
+            "count": 13,
+            "qoq": 2.4,
+            "rank": 2,
+            "area": "蒋垛镇",
+            "yoy": 1
+           }, {
+            "count": 15,
+            "qoq": 1.9,
+            "rank": 2,
+            "area": "娄庄镇",
+            "yoy": 1
+           }, {
+            "count": 6,
+            "qoq": 2.0,
+            "rank": 2,
+            "area": "白米镇",
+            "yoy": 1
+           }, {
+            "count": 11,
+            "qoq": 2.3,
+            "rank": 2,
+            "area": "俞垛镇",
+            "yoy": 1
+           }
+          ]
+    },
+    "//":"负秩序事件类型分布统计",
+    "duration":{
+        "data": [{
+            "icidentType": "3",
+            "count": 1,
+            "area": "xxxxxx"
+           }, {
+            "icidentType": "2",
+            "count": 2,
+            "area": "xxxxxx"
+           }, {
+            "icidentType": "3",
+            "count": 3,
+            "area": "xxxxxx"
+           }, {
+            "icidentType": "2",
+            "count": 2,
+            "area": "xxxxxx"
+           }, {
+            "icidentType": "3",
+            "count": 4,
+            "area": "xxxxxx"
+           }]
+    },
+    "//":"负秩序事件类型分布统计",
+    "orderType":{
+        "data": [{
+            "count": 1,
+            "eventType": "xxxxxx",
+            "durantion": "01"
+           },  {
+            "count": 1,
+            "eventType": "xxxxxx",
+            "durantion": "21"
+           }, {
+            "count": 1,
+            "eventType": "xxxxxx",
+            "durantion": "02"
+           }, {
+            "count": 1,
+            "eventType": "xxxxxx",
+            "durantion": "01"
+           }, {
+            "count": 1,
+            "eventType": "xxxxxx",
+            "durantion": "02"
+           }, {
+            "count": 1,
+            "eventType": "全区",
+            "durantion": "21"
+           }]
+    }
+
+}

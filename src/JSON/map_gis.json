@@ -1,0 +1,301 @@
+{
+    "//":"日拥堵指数查询",
+    "daylaw":{
+        "data": [{
+            "avgValue": 0,
+            "hour": 0
+           }, {
+            "avgValue": 0,
+            "hour": 1
+           }, {
+            "avgValue": 0,
+            "hour": 2
+           }, {
+            "avgValue": 0,
+            "hour": 3
+           }, {
+            "avgValue": 0,
+            "hour": 4
+           }, {
+            "avgValue": 0,
+            "hour": 5
+           }, {
+            "avgValue": 0,
+            "hour": 6
+           }, {
+            "avgValue": 0,
+            "hour": 7
+           }, {
+            "avgValue": 0,
+            "hour": 8
+           }, {
+            "avgValue": 0,
+            "hour": 9
+           }, {
+            "avgValue": 0,
+            "hour": 10
+           }, {
+            "avgValue": 0,
+            "hour": 11
+           }, {
+            "avgValue": 0,
+            "hour": 12
+           }, {
+            "avgValue": 0,
+            "hour": 13
+           }, {
+            "avgValue": 0.8095238095238095,
+            "hour": 14
+           }, {
+            "avgValue": 1.7391304347826086,
+            "hour": 15
+           }, {
+            "avgValue": 0,
+            "hour": 16
+           }, {
+            "avgValue": 0.9,
+            "hour": 17
+           }, {
+            "avgValue": 1.1744749596122779,
+            "hour": 18
+           }, {
+            "avgValue": 1.0492845786963434,
+            "hour": 19
+           }, {
+            "avgValue": 1.0481540930979134,
+            "hour": 20
+           }, {
+            "avgValue": 0.9775280898876404,
+            "hour": 21
+           }, {
+            "avgValue": 1.11,
+            "hour": 22
+           }, {
+            "avgValue": 1.123003194888179,
+            "hour": 23
+           }, {
+            "eveningHigh": "16:30-18:30",
+            "morningHigh": "7:00-9:00"
+           }]
+    },
+    "//":"日均交通构成统计",
+	"//":"edited by brandy",
+    "rule":{
+        "data": [{
+            "areaId": "淤溪镇",
+			"arriveTrafficProp": 0.2,
+			"leaveTrafficProp": 0.6,
+			"interTrafficProp": 0.1,
+			"transitTrafficProp": 0.1,
+			"arriveTrafficFlow": 321,
+			"leaveTrafficFlow": 210,
+			"interTrafficFlow": 116,
+			"transitTrafficFlow": 220
+		},
+		{
+            "areaId": "溱潼镇",
+			"arriveTrafficProp": 0.2,
+			"leaveTrafficProp": 0.6,
+			"interTrafficProp": 0.1,
+			"transitTrafficProp": 0.1,
+			"arriveTrafficFlow": 111,
+			"leaveTrafficFlow": 164,
+			"interTrafficFlow": 265,
+			"transitTrafficFlow": 131
+		},
+		{
+            "areaId": "沈高镇",
+			"arriveTrafficProp": 0.2,
+			"leaveTrafficProp": 0.6,
+			"interTrafficProp": 0.1,
+			"transitTrafficProp": 0.1,
+			"arriveTrafficFlow": 242,
+			"leaveTrafficFlow": 103,
+			"interTrafficFlow": 111,
+			"transitTrafficFlow": 168
+		},
+		{
+            "areaId": "张甸镇",
+			"arriveTrafficProp": 0.2,
+			"leaveTrafficProp": 0.6,
+			"interTrafficProp": 0.1,
+			"transitTrafficProp": 0.1,
+			"arriveTrafficFlow": 111,
+			"leaveTrafficFlow": 221,
+			"interTrafficFlow": 198,
+			"transitTrafficFlow": 164
+		},
+		{
+            "areaId": "顾高镇",
+			"arriveTrafficProp": 0.2,
+			"leaveTrafficProp": 0.6,
+			"interTrafficProp": 0.1,
+			"transitTrafficProp": 0.1,
+			"arriveTrafficFlow": 136,
+			"leaveTrafficFlow": 172,
+			"interTrafficFlow": 211,
+			"transitTrafficFlow": 222
+		},
+		{
+            "areaId": "大土仑镇",
+			"arriveTrafficProp": 0.2,
+			"leaveTrafficProp": 0.6,
+			"interTrafficProp": 0.1,
+			"transitTrafficProp": 0.1,
+			"arriveTrafficFlow": 242,
+			"leaveTrafficFlow": 130,
+			"interTrafficFlow": 145,
+			"transitTrafficFlow": 200
+		},
+		{
+            "areaId": "俞垛镇",
+			"arriveTrafficProp": 0.2,
+			"leaveTrafficProp": 0.6,
+			"interTrafficProp": 0.1,
+			"transitTrafficProp": 0.1,
+			"arriveTrafficFlow": 142,
+			"leaveTrafficFlow": 201,
+			"interTrafficFlow": 233,
+			"transitTrafficFlow": 152
+		},
+		{
+            "areaId": "白米镇",
+			"arriveTrafficProp": 0.2,
+			"leaveTrafficProp": 0.6,
+			"interTrafficProp": 0.1,
+			"transitTrafficProp": 0.1,
+			"arriveTrafficFlow": 124,
+			"leaveTrafficFlow": 321,
+			"interTrafficFlow": 154,
+			"transitTrafficFlow": 166
+		}]
+    },
+    "//":"高峰时段拥堵指数查询",
+	"//": "edited by brandy",
+    "heightlaw":{
+        "data": {
+            "淤溪镇": {
+             "avgSpeed": 154.14226238074485,
+             "avgSpeedEvening": 670.3965382874167,
+             "avgSpeedMorning": 829.158343589913,
+             "avgTPI": 2.037037037037037,
+             "avgTPIEvening": 0.3056628056628057,
+             "avgTPIMorning": 0.2564102564102564,
+             "eveningRank": 7,
+             "highRank": 8,
+             "highSpeed": 749.7774409386648,
+             "highTPI": 0.28103653103653103,
+             "morningRank": 7,
+             "todayRank": 5
+            },
+            "溱潼镇": {
+             "avgSpeed": 122.15973398165403,
+             "avgSpeedEvening": 511.812701487737,
+             "avgSpeedMorning": 651.6901489892634,
+             "avgTPI": 2.5,
+             "avgTPIEvening": 0.4556451612903226,
+             "avgTPIMorning": 0.34188034188034183,
+             "eveningRank": 4,
+             "highRank": 7,
+             "highSpeed": 581.7514252385002,
+             "highTPI": 0.39876275158533225,
+             "morningRank": 6,
+             "todayRank": 2
+            },
+            "沈高镇": {
+             "avgSpeed": 260.927330465137,
+             "avgSpeedEvening": 649.5145241434749,
+             "avgSpeedMorning": 812.5365923706122,
+             "avgTPI": 2.2413793103448274,
+             "avgTPIEvening": 0.6723996723996724,
+             "avgTPIMorning": 1.00688924218336,
+             "eveningRank": 3,
+             "highRank": 1,
+             "highSpeed": 731.0255582570435,
+             "highTPI": 0.8396444572915162,
+             "morningRank": 1,
+             "todayRank": 4
+            },
+            "张甸镇": {
+             "avgSpeed": 153.28379376754583,
+             "avgSpeedEvening": 808.4367471266963,
+             "avgSpeedMorning": 724.5508906823088,
+             "avgTPI": 1.320754716981132,
+             "avgTPIEvening": 0.7132601351351351,
+             "avgTPIMorning": 0.7136083451872924,
+             "eveningRank": 2,
+             "highRank": 3,
+             "highSpeed": 766.4938189045026,
+             "highTPI": 0.7134342401612137,
+             "morningRank": 3,
+             "todayRank": 7
+            },
+            "顾高镇": {
+             "avgSpeed": 148.09771628391337,
+             "avgSpeedEvening": 801.7687641602822,
+             "avgSpeedMorning": 766.788312360905,
+             "avgTPI": 2.962962962962963,
+             "avgTPIEvening": 0.39558531746031744,
+             "avgTPIMorning": 0.5199430199430198,
+             "eveningRank": 5,
+             "highRank": 5,
+             "highSpeed": 784.2785382605937,
+             "highTPI": 0.45776416870166864,
+             "morningRank": 5,
+             "todayRank": 1
+            },
+            "大土仑镇": {
+             "avgSpeed": 138.71058482525814,
+             "avgSpeedEvening": 654.1087205717116,
+             "avgSpeedMorning": 691.6778284336295,
+             "avgTPI": 1.0526315789473684,
+             "avgTPIEvening": 0.293262012012012,
+             "avgTPIMorning": 0.565484839678388,
+             "eveningRank": 8,
+             "highRank": 6,
+             "highSpeed": 672.8932745026706,
+             "highTPI": 0.4293734258452,
+             "morningRank": 4,
+             "todayRank": 8
+            },
+            "俞垛镇": {
+             "avgSpeed": 164.16558135468776,
+             "avgSpeedEvening": 857.5097611768725,
+             "avgSpeedMorning": 816.811926332303,
+             "avgTPI": 1.7647058823529411,
+             "avgTPIEvening": 1.375,
+             "avgTPIMorning": 0.17556017556017556,
+             "eveningRank": 1,
+             "highRank": 2,
+             "highSpeed": 837.1608437545877,
+             "highTPI": 0.7752800877800878,
+             "morningRank": 8,
+             "todayRank": 6
+            },
+            "白米镇": {
+             "avgSpeed": 384.3148890167806,
+             "avgSpeedEvening": 621.6642706305051,
+             "avgSpeedMorning": 607.8163745064312,
+             "avgTPI": 2.3728813559322033,
+             "avgTPIEvening": 0.37351443123938877,
+             "avgTPIMorning": 0.8824208824208825,
+             "eveningRank": 6,
+             "highRank": 4,
+             "highSpeed": 614.7403225684682,
+             "highTPI": 0.6279676568301356,
+             "morningRank": 2,
+             "todayRank": 3
+            },
+            "全部": {
+             "avgSpeed": 190.7252365094652,
+             "avgSpeedEvening": 696.901503448087,
+             "avgSpeedMorning": 737.6288021581707,
+             "avgTPI": 2.0315441055698087,
+             "avgTPIEvening": 0.5730411918999567,
+             "avgTPIMorning": 0.5577746379079646,
+             "highSpeed": 717.2651528031289,
+             "highTPI": 0.5654079149039606
+            }
+           }
+    }
+}

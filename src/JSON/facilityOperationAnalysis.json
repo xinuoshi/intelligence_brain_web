@@ -1,0 +1,149 @@
+{
+    "//":"",
+    "reportForm":{
+        "data":[{
+            "areaName": "梁徐街道",
+            "electronicPoliceCR": 12,
+            "electronicPoliceCR_RingRatio": 1,
+            "electronicPoliceCR_YearOnYear": 3,
+            "pedestrianLightCR": 4,
+            "pedestrianLightCR_RingRatio": 11,
+            "pedestrianLightCR_YearOnYear": 9,
+            "totalOutfieldEquipmentNew": 23,
+            "totalOutfieldEquipmentRingRatio": 8,
+            "totalOutfieldEquipmentSum": 10,
+            "totalOutfieldEquipmentYearOnYear": 7,
+            "zebraCrossingCR": 19,
+            "zebraCrossingCR_RingRatio": 9,
+            "zebraCrossingCR_YearOnYear": 14
+        },{
+            "areaName": "罗塘街道",
+            "electronicPoliceCR": 22,
+            "electronicPoliceCR_RingRatio": 13,
+            "electronicPoliceCR_YearOnYear": 13,
+            "pedestrianLightCR": 15,
+            "pedestrianLightCR_RingRatio": 13,
+            "pedestrianLightCR_YearOnYear": 11,
+            "totalOutfieldEquipmentNew": 10,
+            "totalOutfieldEquipmentRingRatio": 19,
+            "totalOutfieldEquipmentSum": 13,
+            "totalOutfieldEquipmentYearOnYear": 10,
+            "zebraCrossingCR": 8,
+            "zebraCrossingCR_RingRatio": 16,
+            "zebraCrossingCR_YearOnYear": 23
+        },{
+            "areaName": "三水街道",
+            "electronicPoliceCR": 9,
+            "electronicPoliceCR_RingRatio": 15,
+            "electronicPoliceCR_YearOnYear": 21,
+            "pedestrianLightCR": 19,
+            "pedestrianLightCR_RingRatio": 8,
+            "pedestrianLightCR_YearOnYear": 14,
+            "totalOutfieldEquipmentNew": 9,
+            "totalOutfieldEquipmentRingRatio": 5,
+            "totalOutfieldEquipmentSum": 1,
+            "totalOutfieldEquipmentYearOnYear": 19,
+            "zebraCrossingCR": 13,
+            "zebraCrossingCR_RingRatio": 6,
+            "zebraCrossingCR_YearOnYear": 16
+        },{
+            "areaName": "天目山街道",
+            "electronicPoliceCR": 6,
+            "electronicPoliceCR_RingRatio": 26,
+            "electronicPoliceCR_YearOnYear": 5,
+            "pedestrianLightCR": 22,
+            "pedestrianLightCR_RingRatio": 7,
+            "pedestrianLightCR_YearOnYear": 19,
+            "totalOutfieldEquipmentNew": 17,
+            "totalOutfieldEquipmentRingRatio": 8,
+            "totalOutfieldEquipmentSum": 3,
+            "totalOutfieldEquipmentYearOnYear": 6,
+            "zebraCrossingCR": 18,
+            "zebraCrossingCR_RingRatio": 18,
+            "zebraCrossingCR_YearOnYear": 3
+        },{
+            "areaName": "蒋垛镇",
+            "electronicPoliceCR": 14,
+            "electronicPoliceCR_RingRatio": 8,
+            "electronicPoliceCR_YearOnYear": 15,
+            "pedestrianLightCR": 6,
+            "pedestrianLightCR_RingRatio": 15,
+            "pedestrianLightCR_YearOnYear": 6,
+            "totalOutfieldEquipmentNew": 8,
+            "totalOutfieldEquipmentRingRatio": 20,
+            "totalOutfieldEquipmentSum": 21,
+            "totalOutfieldEquipmentYearOnYear": 9,
+            "zebraCrossingCR": 4,
+            "zebraCrossingCR_RingRatio": 23,
+            "zebraCrossingCR_YearOnYear": 13
+        },{
+            "areaName": "娄庄镇",
+            "electronicPoliceCR": 23,
+            "electronicPoliceCR_RingRatio": 12,
+            "electronicPoliceCR_YearOnYear": 14,
+            "pedestrianLightCR": 9,
+            "pedestrianLightCR_RingRatio": 13,
+            "pedestrianLightCR_YearOnYear": 5,
+            "totalOutfieldEquipmentNew": 19,
+            "totalOutfieldEquipmentRingRatio": 13,
+            "totalOutfieldEquipmentSum": 33,
+            "totalOutfieldEquipmentYearOnYear": 12,
+            "zebraCrossingCR": 4,
+            "zebraCrossingCR_RingRatio": 19,
+            "zebraCrossingCR_YearOnYear": 3
+        },{
+            "areaName": "白米镇",
+            "electronicPoliceCR": 4,
+            "electronicPoliceCR_RingRatio": 4,
+            "electronicPoliceCR_YearOnYear": 13,
+            "pedestrianLightCR": 16,
+            "pedestrianLightCR_RingRatio": 3,
+            "pedestrianLightCR_YearOnYear": 20,
+            "totalOutfieldEquipmentNew": 10,
+            "totalOutfieldEquipmentRingRatio": 15,
+            "totalOutfieldEquipmentSum": 18,
+            "totalOutfieldEquipmentYearOnYear": 16,
+            "zebraCrossingCR": 28,
+            "zebraCrossingCR_RingRatio": 2,
+            "zebraCrossingCR_YearOnYear": 27
+        },{
+            "areaName": "俞垛镇",
+            "electronicPoliceCR": 10,
+            "electronicPoliceCR_RingRatio": 21,
+            "electronicPoliceCR_YearOnYear": 16,
+            "pedestrianLightCR": 19,
+            "pedestrianLightCR_RingRatio": 30,
+            "pedestrianLightCR_YearOnYear": 16,
+            "totalOutfieldEquipmentNew": 4,
+            "totalOutfieldEquipmentRingRatio": 12,
+            "totalOutfieldEquipmentSum": 1,
+            "totalOutfieldEquipmentYearOnYear": 21,
+            "zebraCrossingCR": 6,
+            "zebraCrossingCR_RingRatio": 7,
+            "zebraCrossingCR_YearOnYear": 1
+        }]
+    },
+    "//":"",
+    "acdRoad":{
+        "data": [{
+            "roadName": "上海路",
+            "rank": 1
+           }, {
+            "roadName": "人民北路",
+            "rank": 2
+           },
+		   {
+		    "roadName": "三水大道",
+		    "rank": 3
+		   },
+		   {
+		    "roadName": "姜堰大道",
+		    "rank": 4
+		   },
+		   {
+		    "roadName": "前进路",
+		    "rank": 5
+		   }
+		]
+    }
+}

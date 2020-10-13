@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" id="caiwenlong">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>intelligence_brain_web</title>
+  <!-- 引入导出相关js,可导出word和prd -->
+  <script src="https://cdn.bootcss.com/html2canvas/0.5.0-beta4/html2canvas.js"></script>
+  <script src="https://cdn.bootcss.com/jspdf/1.3.4/jspdf.debug.js"></script>
+  <!-- <script type="text/javascript" src="http://www.xdocin.com/xdoc.js"></script> -->
+  <script type="text/javascript" src="http://www.xdocin.com/baiduTemplate.js"></script>
+</head>
+
+<body>
+  <noscript>
+    <strong>本页面需要浏览器支持（启用）JavaScript.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <!-- 引入jq -->
+  <script src="./jquery-2.1.1.min.js"></script>
+  <!-- 引入原型扩展js -->
+  <!-- <script src="./arcgis-map.js"></script> -->
+  <!-- <script src="./arcgis-map-d.js"></script> -->
+  <!-- <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script> -->
+  <script type="text/javascript" src="http://www.xdocin.com/xdoc.js"></script>
+
+<!-- 百度地图API -->
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=IjLGIs2IFn675AvpyyOVouXkjLYgZIlI"></script>
+  <script>
+    // let data = "<GetFeature xmlns=\"http://www.opengis.net/wfs\" service=\"WFS\" version=\"1.1.0\" outputFormat=\"application/json\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\"><Query typeName=\"wit_brains:tj_towns2\" srsName=\"EPSG:4326\" xmlns:osm=\"http://openstreemap.org\"><Filter xmlns=\"http://www.opengis.net/ogc\"><And><PropertyIsEqualTo><PropertyName>NAME</PropertyName><Literal>八经路</Literal></PropertyIsEqualTo></And></Filter></Query></GetFeature>"
+    // let url = "geoserver/wit_brains/wfs";
+    // let testUrl = "geoserver/wit_brains/wfs?request=GetFeature&version=1.1.0&typename=wit_brains:tj_towns2&outputformat=json&Filter=<GetFeature xmlns=\"http://www.opengis.net/wfs\" service=\"WFS\" version=\"1.1.0\" outputFormat=\"application/json\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\"><Query typeName=\"wit_brains:tj_towns2\" srsName=\"EPSG:4326\" xmlns:osm=\"http://openstreemap.org\"><Filter xmlns=\"http://www.opengis.net/ogc\"><And><PropertyIsEqualTo><PropertyName>NAME</PropertyName><Literal>八经路</Literal></PropertyIsEqualTo></And></Filter></Query></GetFeature>";
+    // $.ajax({
+    //   url:testUrl,
+    //   type:"get",
+    //   data:data,
+    //   async:false,
+    //   success:function(ret){
+    //     
+    //     console.log(ret)
+    //   },
+    //   error:function(error){
+    //     console.log(error)
+    //     
+    //   }
+    // })
+  </script>
+
+</body>
+
+</html>
